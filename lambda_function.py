@@ -4,8 +4,6 @@
 # dummy test string
 # https://url-of-lambda/dyndns?ipaddress=127.0.0.2&domainname=dyn-domain&ip6address=1&username=test&password=...
 
-# TODO check also username
-
 from __future__ import print_function
 import json
 import os
