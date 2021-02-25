@@ -1,12 +1,14 @@
 # aws_dyndns
-easy custom dyndns as lambda on aws (works with fritzbox)
+It' a simple very simple custom implementation of dynamic dns as lambda function on aws.
+It works with well my fritzbox. I have a domain ad subdomains hosted on aws.
 
-* a lambda service is called
-* check the given password and (sub)domain with values in config file
-* update ipv4 and ipv6 in route53
-* write log entry in history.json
+The lambda service does the following things:
+* checks the given password and (sub)domain with the values in the config file
+* takes ipv4 and ip6 adresses from caller
+* updates ipv4 and ipv6 adresses of (sub)domain in route53
+* writes log entry in history.json
 
-
+## what you need:
 ### route 53
 * for each dyn-dns one (sub)domain with entries for
   * ipv4 A
