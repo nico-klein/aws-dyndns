@@ -14,8 +14,8 @@ import logging
 from botocore.exceptions import ClientError
 from datetime import datetime
 
-awsRegion = 'eu-central-1'
-s3Bucket = 'dyn.dns'
+awsRegion = 'eu-central-1' # change to your region
+s3Bucket = '...' # your bucket for the files config.json and history.json
 s3KeyConfig = 'config.json'
 s3KeyUsage = 'history.json'
 
