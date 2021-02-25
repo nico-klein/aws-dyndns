@@ -8,19 +8,19 @@
                 "s3:PutObject",
                 "s3:GetObject"
             ],
-            "Resource": "arn:aws:s3:::dyn.dns/history.json"
+            "Resource": "arn:aws:s3:::<bucketname>/history.json"
         },
         {
             "Sid": "VisualEditor1",
             "Effect": "Allow",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::dyn.dns/config.json"
+            "Resource": "arn:aws:s3:::<bucketname>/config.json"
         },
         {
             "Sid": "VisualEditor2",
             "Effect": "Allow",
             "Action": "route53:ChangeResourceRecordSets",
-            "Resource": "arn:aws:route53:::hostedzone/....."
+            "Resource": "arn:aws:route53:::hostedzone/<domain>"
         },
         {
             "Sid": "VisualEditor3",
