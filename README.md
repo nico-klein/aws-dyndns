@@ -7,20 +7,22 @@ easy custom dyndns as lambda on aws (works with fritzbox)
 * write log entry in history.json
 
 
-### s3 
-* bucket for config file (config.json) and logfile (history.json)
-* config.json with (sub)domain(s) and passwords
-
-## lambda 
-* the python file file with the functionality
-
-### api-gateway
-one entry with GET connected to LAMBDA_PROXY
-
 ### route 53
 * for each dyn-dns one (sub)domain with entries for
   * ipv4 A
   * ipv6 AAAA
 * one (sub)domain for lambda service
+
+### s3 
+* bucket for config file (config.json) and logfile (history.json)
+* config.json with (sub)domain(s) and passwords
+
+### lambda 
+* the python file file with the functionality
+
+### api-gateway
+* one entry with GET connected to LAMBDA_PROXY
+
+
 
 
