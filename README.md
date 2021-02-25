@@ -1,5 +1,6 @@
 # aws_dyndns
 It' a simple very simple custom implementation of dynamic dns as lambda function on aws.
+Security is only to check the given password of the caller - not more.
 It works with well my fritzbox. I have a domain ad subdomains hosted on aws.
 
 The lambda service does the following things:
