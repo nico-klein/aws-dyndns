@@ -1,0 +1,10 @@
+{
+	"subdomain2.domainname.com.": {
+		"route53ZoneId": "...",
+		"password": "..."
+	},
+	"subdomain2.domainname.com.": {
+		"route53ZoneId": "...",
+		"password": "..."
+	}
+}
