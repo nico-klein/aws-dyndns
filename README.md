@@ -21,6 +21,7 @@ The lambda service does the following things:
 
 ### lambda 
 * the python file file with the functionality
+* policy with the rights (sample is in thgis repo)
 
 ### api-gateway
 * one entry with GET connected to LAMBDA_PROXY
